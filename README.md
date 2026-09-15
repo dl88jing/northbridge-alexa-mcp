@@ -8,6 +8,14 @@
 
 ---
 
+## Live demo
+
+**Public Control Plane / Alexa+ simulator:** [https://northbridge-alexa-mcp.vercel.app](https://northbridge-alexa-mcp.vercel.app)
+
+Same fixture household (Avery & Morgan Quinn), policy, and tool scenarios as the local MCP server — use **Run quiet pass**, ask *“What's due this week?”*, or escalate StreamFlix / dental / PG&E. No AWS keys required.
+
+---
+
 ## Why this wins the brief
 
 | Requirement | How Northbridge delivers |

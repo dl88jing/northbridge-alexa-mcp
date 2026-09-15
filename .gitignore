@@ -15,3 +15,9 @@ data/runtime/*
 .pytest_cache/
 northbridge_home_ops.egg-info/
 *.egg-info/
+
+.vercel/
+web/.vercel/
+
+.env.local
+web/.env.local

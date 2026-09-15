@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "northbridge-home-ops"
+version = "0.1.0"
+description = "Northbridge Home Ops — self-hosted MCP server for Alexa+ quiet household administration (Amazon Developer Hackathon 2026)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Northbridge Home Ops Contributors" }]
+dependencies = [
+  "mcp>=1.9.0",
+  "strands-agents>=1.0.0",
+  "uvicorn>=0.30.0",
+  "starlette>=0.37.0",
+]
+
+[project.optional-dependencies]
+bedrock = ["boto3>=1.34.0"]
+
+[project.scripts]
+northbridge-demo = "northbridge.demo:main"
+northbridge-mcp = "northbridge.server:main"
+
+[tool.setuptools.packages.find]
+include = ["northbridge*"]

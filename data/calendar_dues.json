@@ -1,0 +1,67 @@
+[
+  {
+    "id": "due-bill-pge",
+    "title": "PG&E due",
+    "kind": "bill",
+    "ref_id": "bill-pge-2026-09",
+    "due_date": "2026-09-18",
+    "priority": "normal"
+  },
+  {
+    "id": "due-bill-streamflix",
+    "title": "StreamFlix renewal",
+    "kind": "bill",
+    "ref_id": "bill-streamflix-2026-09",
+    "due_date": "2026-09-16",
+    "priority": "high"
+  },
+  {
+    "id": "due-bill-rent",
+    "title": "Rent — Northbridge Property Mgmt",
+    "kind": "bill",
+    "ref_id": "bill-rent-2026-09",
+    "due_date": "2026-10-01",
+    "priority": "high"
+  },
+  {
+    "id": "due-bill-pge-dup",
+    "title": "PG&E (possible duplicate)",
+    "kind": "bill",
+    "ref_id": "bill-pge-dup-2026-09",
+    "due_date": "2026-09-18",
+    "priority": "high"
+  },
+  {
+    "id": "due-bill-dental",
+    "title": "Bayview Dental balance",
+    "kind": "bill",
+    "ref_id": "bill-dental-2026-09",
+    "due_date": "2026-09-22",
+    "priority": "high"
+  },
+  {
+    "id": "due-bill-fiber",
+    "title": "Cascadia Fiber",
+    "kind": "bill",
+    "ref_id": "bill-fiber-2026-09",
+    "due_date": "2026-09-20",
+    "priority": "normal"
+  },
+  {
+    "id": "due-hoa-packet",
+    "title": "HOA annual packet review",
+    "kind": "admin",
+    "ref_id": null,
+    "due_date": "2026-09-25",
+    "priority": "normal",
+    "notes": "Read-only calendar item — no payment"
+  },
+  {
+    "id": "due-insurance-renewal",
+    "title": "Renters insurance renewal window",
+    "kind": "reminder",
+    "ref_id": null,
+    "due_date": "2026-09-28",
+    "priority": "low"
+  }
+]

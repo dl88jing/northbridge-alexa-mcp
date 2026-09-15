@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fund-checking",
+    "name": "Northbridge Joint Checking",
+    "institution": "Cascadia Credit Union",
+    "type": "checking",
+    "available_balance": 4120.35,
+    "currency": "USD",
+    "reserve_floor": 800.0,
+    "last4": "1001"
+  },
+  {
+    "id": "fund-hsa",
+    "name": "Avery HSA",
+    "institution": "HealthLedger",
+    "type": "hsa",
+    "available_balance": 890.0,
+    "currency": "USD",
+    "reserve_floor": 200.0,
+    "last4": "7730"
+  },
+  {
+    "id": "fund-savings",
+    "name": "Emergency Savings",
+    "institution": "Cascadia Credit Union",
+    "type": "savings",
+    "available_balance": 12500.0,
+    "currency": "USD",
+    "reserve_floor": 5000.0,
+    "last4": "5522"
+  }
+]

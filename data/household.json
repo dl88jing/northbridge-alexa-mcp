@@ -1,0 +1,26 @@
+{
+  "household_id": "northbridge-quinn",
+  "name": "Northbridge",
+  "members": [
+    {
+      "id": "avery",
+      "name": "Avery Quinn",
+      "role": "ops_primary",
+      "alexa_profile": "Avery"
+    },
+    {
+      "id": "morgan",
+      "name": "Morgan Quinn",
+      "role": "ops_secondary",
+      "alexa_profile": "Morgan"
+    }
+  ],
+  "timezone": "America/Los_Angeles",
+  "address_label": "Northbridge residence",
+  "preferences": {
+    "escalate_only": true,
+    "quiet_hours": { "start": "21:00", "end": "07:00" },
+    "auto_handle_categories": ["utilities", "insurance", "rent", "internet"],
+    "human_required_categories": ["medical", "tax", "legal", "unknown"]
+  }
+}

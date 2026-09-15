@@ -1,0 +1,37 @@
+{
+  "version": "2026.09",
+  "mode": "escalate_only",
+  "rules": [
+    {
+      "id": "amount_out_of_band",
+      "when": "amount outside expected_amount_range",
+      "decision": "HUMAN_REQUIRED",
+      "reason": "Unexpected amount — confirm before funding"
+    },
+    {
+      "id": "duplicate_charge",
+      "when": "same payee + amount + due_date as another open bill",
+      "decision": "HUMAN_REQUIRED",
+      "reason": "Possible duplicate charge"
+    },
+    {
+      "id": "category_sensitive",
+      "when": "category in medical|tax|legal|unknown",
+      "decision": "HUMAN_REQUIRED",
+      "reason": "Sensitive category always escalates"
+    },
+    {
+      "id": "insufficient_funding",
+      "when": "available_balance - reserve_floor < amount",
+      "decision": "HUMAN_REQUIRED",
+      "reason": "Funding shortfall vs reserve floor"
+    },
+    {
+      "id": "routine_in_band",
+      "when": "no anomalies and category auto-eligible",
+      "decision": "AUTO",
+      "reason": "Routine bill within expected band with adequate funding"
+    }
+  ],
+  "auto_eligible_categories": ["utilities", "insurance", "rent", "internet", "subscription"]
+}

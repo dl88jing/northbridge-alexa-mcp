@@ -8,6 +8,12 @@
 
 ---
 
+## Demo video
+
+**https://youtu.be/QTPBWsWi7vg**
+
+[![Northbridge Home Ops demo](https://img.youtube.com/vi/QTPBWsWi7vg/maxresdefault.jpg)](https://youtu.be/QTPBWsWi7vg)
+
 ## Live demo
 
 **Public Control Plane / Alexa+ simulator:** [https://northbridge-alexa-mcp.vercel.app](https://northbridge-alexa-mcp.vercel.app)
